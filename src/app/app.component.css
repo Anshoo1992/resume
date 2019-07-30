@@ -1,0 +1,86 @@
+.loader .my-loader {
+    background-color: #D32F2F;
+    
+}
+.cnav{
+    position: relative;
+
+}
+.bg{
+    background: green;
+    width: 100%;
+    height: 100%;
+}
+.moveout{
+    left:0 !important;
+}
+.cnavicon{
+    background: #383d41;
+    position: absolute;
+    z-index: 11;
+    margin: 0 27px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid rgba(93, 92, 92, 0.55);
+    color: #06a763;
+    font-size: 31px;
+    text-align: center;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    padding: 2px 14px;
+    display: flex;
+}
+.cnavcontent{
+    position: fixed;
+    z-index: 10;
+    background: #f5f5f5;
+    width: 225px;
+    height: 100%;
+    left:-240px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    transition: all .3s ease;
+}
+.cnavcontent ul {
+    list-style: none;
+    margin: 30px 0;
+}
+.cnavcontent img {
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border: 3px solid #f5f5f5;
+}
+.left10{
+    left: 13%;
+}
+.cnavname{
+    width: 100%;
+    height: 200px;
+    background: #06a763;
+    position: relative;
+}
+.clisticons{
+    margin: 0 15px 0 0;
+
+}
+.cnavcontent ul li{
+    margin-bottom: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.cnavcontent ul a:hover{
+    color:#1976D2;
+}
+a{text-decoration: none; color: #616161;}
+@media (max-width : 760px) {
+    .left10{
+    left: 60%;
+}
+}
+@media (min-width : 768px) and (max-width:1000px) {
+    .left10{
+    left: 30%;
+}
+}

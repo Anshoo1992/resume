@@ -1,0 +1,22 @@
+
+  <div class="positionRelative">
+    <div class="timelineContent"  >
+      <div class="card" *ngFor="let item of arrList">
+         <div class="timeline-dot">
+            <span *ngIf="item.icon!=''" class="card-icon">
+              <i [ngClass]='item.icon' ></i>
+            </span>
+            <span *ngIf="item.icon==''" [innerHTML]="getIconValue(item.title)" class="card-icon"></span>
+          </div>
+        <div class="card-block">
+          <h4 class="card-title">{{item.title}}</h4>
+          <h6 class="card-subtitle mb-2 text-muted">{{item.subtitle}}</h6>
+          <h6 class="card-subtitle mb-2 text-muted" *ngIf="item.role">{{item.role}}</h6>
+          <p class="card-text">{{item.date}}</p>
+          <p class="card-text">{{item.desc}}</p>
+          <p class="card-text" *ngIf="item.skills"><span class="bold">Skills:</span> {{item.skills}}</p>
+        </div>
+      </div>
+    </div>
+</div>
+

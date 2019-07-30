@@ -1,0 +1,141 @@
+.homepage_image{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 370px;
+    background: url(../../../assets/images/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+#home,#contact{
+    width: 100%;
+}
+.positionRelative{
+    position: relative;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.paddingRight0{
+    padding-right: 0;
+}
+.paddingLeft0{
+    padding-left:0;
+}
+.overflowHidden{overflow: hidden};
+.homepage_intro{position :relative}
+.profileDiv{
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.profiledivXS{
+    position: absolute;
+    top: 30%;
+}
+
+.card1{
+    margin-top:-200px; 
+}
+.profile_imgXS{
+    position: absolute;
+     top: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.profile_img{
+    position: absolute;
+    right: 0;
+}
+.profile_img img{width:400px;pointer-events: none;}
+.profile_content{
+    padding:40px;
+    color:#fff;
+    height: 100%;
+    width: 100%;
+}
+.profile_content p{font-size: 18px;}
+.profile_content h2{font-weight: bold;}
+.slantBorder{
+    position: absolute;
+    top: 0;
+    border-width: 400px 0px 0 100px;
+    border-color: transparent transparent transparent #06A763;
+    border-style: solid
+}
+.socialMedia{
+    width: 30px;
+    border-radius: 50%;
+    background: #3f51b5;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+.socialMedia.facebook{background: #3f51b5;}
+.socialMedia.twitter{background: #2196f3;}
+.socialMedia.google-plus{background: #f44336;}
+.socialMedia.linkedin{background: #1565c0;}
+.marginTop40{margin-top:40px;}
+.marginTop140{margin-top:140px;}
+.font18{
+    font-size:18px;
+}
+.heading{text-align: center;margin-bottom:40px; }
+.heading h2{font-size: 30px;color:#555;    display: inline-block;    margin-left: 15px;text-transform: uppercase;}
+.heading span{
+    color:#1abc9c; 
+    width: 65px;
+    height: 65px;
+    background: #f5f5f5;
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: 3px 3px 10px #aaa ;
+    font-size: 40px;
+    display: inline-block; 
+    }
+.heartsec .fa-heart{
+    color:#e74c3c;
+}
+
+.profile_imgXS img{
+    width: 150px;
+    border-radius: 50%;
+}
+.bgGreen{
+ background: #06A763;
+}
+@media (min-width: 1200px){
+.container {
+    width: 1000px;
+}
+}
+@media (max-width : 760px) {
+    .app_container{
+        margin: 250px auto 20px;
+    }
+.homepage_image img {
+    opacity: .8;
+    margin-top:0;
+    width: auto;
+}
+.homepage_image{
+    height: 450px;
+}
+.marginTop220{
+    margin-top: 220px;
+}
+.profileDiv{
+    width:auto;
+}
+.profile_img img{
+        width: 150px;
+        border-radius: 50%;
+}
+}

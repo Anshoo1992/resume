@@ -1,0 +1,24 @@
+
+.profileintro{
+    background: #fff;
+    box-shadow: 3px 5px 2px #f5f5f5;
+    padding: 40px 40px 20px;
+    text-align: center;
+    color: #666766;
+    box-shadow: 3px 4px 10px #d4d0d0;
+    }
+.profileintro p{font-size: 16px}
+.btnDiv{
+    margin-top:40px;
+    border-top: 1px solid #ccc; 
+}
+.btnDiv .btn-default{
+    border-color: #ccc;
+    margin-top: 20px;
+    padding: 6px 45px !important;
+    background-color: #06a763 !important;
+    color: #fff !important;
+    font-size: 16px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}

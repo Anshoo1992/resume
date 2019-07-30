@@ -1,0 +1,121 @@
+<div class="container-fluid">
+    <div class="row">
+      <div class="positionRelative" id='home'>
+        <div class="homepage_image"></div>
+        <div class="d-none d-sm-block container card1">
+          <div class="row profileDiv no-gutters">
+            <div class="profile_img">
+              <img src='../../../assets/images/my.JPG' alt="myimage" />
+              <span class="slantBorder"></span>
+            </div>
+            <div class="profile_content bgGreen" *ngIf="profileData">
+              <h1>{{profileData.name}}</h1>
+              <h4>{{profileData.designation}}</h4>
+              <p>
+                <span><i class='fa fa-envelope'></i></span> {{profileData.email}}
+              </p>
+              <p>
+                <span><i class='fa fa-globe'></i></span> {{profileData.website}}
+              </p>
+              <p>
+                <span><i class='fa fa-skype'></i></span> {{profileData.skype}}
+              </p>
+              <p>
+                <span><i class='fa fa-phone'></i></span> {{profileData.phone}}
+              </p>
+              <p>
+                <span><i class="fa fa-map-marker"></i></span> {{profileData.location}}
+              </p>
+              <p>
+                <span class="socialMedia facebook"><i class="fa fa-facebook"></i></span>
+                <span class="socialMedia twitter"><i class='fa fa-twitter'></i></span>
+                <span class="socialMedia google-plus"><i class='fa fa-google-plus'></i></span>
+                <span class="socialMedia linkedin"><i class='fa fa-linkedin'></i></span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row d-block d-sm-none profiledivXS">
+          <div class="bgGreen">
+            <div class="profile_imgXS">
+              <img src='../../../assets/images/my.JPG' alt="myimage" />
+            </div>
+            <div class="profile_content text-center marginTop40" *ngIf="profileData">
+              <h2>{{profileData.name}}</h2>
+              <h4>{{profileData.designation}}</h4>
+              <div class="row text-left font18">
+                <span class="col-xs-2 paddingRight0"><i class='fa fa-envelope'></i></span>
+                <span class="col-xs-10 paddingLeft0">{{profileData.email}}</span>
+              </div>
+              <div class="row text-left font18">
+                <span class="col-xs-2 paddingRight0"><i class='fa fa-globe'></i></span>
+                <span class="col-xs-10 paddingLeft0">{{profileData.website}}</span>
+              </div>
+              <div class="row text-left font18">
+                <span class="col-xs-2 paddingRight0"><i class='fa fa-skype'></i></span>
+                <span class="col-xs-10 paddingLeft0">{{profileData.skype}}</span>
+              </div>
+              <div class="row text-left font18">
+                <span class="col-xs-2 paddingRight0"><i class='fa fa-phone'></i></span>
+                <span class="col-xs-10 paddingLeft0">{{profileData.phone}}</span>
+              </div>
+              <div class="row text-left font18">
+                <span class="col-xs-2 paddingRight0"><i class='fa fa-map-marker'></i></span>
+                <span class="col-xs-10 paddingLeft0">{{profileData.location}}</span>
+              </div>
+  
+              <p class="marginTop40">
+                <span class="socialMedia facebook"><i class="fa fa-facebook"></i></span>
+                <span class="socialMedia twitter"><i class='fa fa-twitter'></i></span>
+                <span class="socialMedia google-plus"><i class='fa fa-google-plus'></i></span>
+                <span class="socialMedia linkedin"><i class='fa fa-linkedin'></i></span>
+              </p>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="container marginTop40 marginTop220">
+      <div class="row paddingRight0 paddingLeft0">
+        <div id="about">
+        <app-profile></app-profile>
+        </div>
+        <div id='education' class="marginTop40">
+          <div class="heading">
+            <span><i class='fa fa-book'></i></span>
+            <h2> Education</h2>
+          </div>
+          <app-timelines [arrList]="educationData"></app-timelines>
+        </div>
+        <div id='skills' class="marginTop40 overflowHidden">
+          <div class="heading">
+            <span><i class='fa fa-sliders'></i></span>
+            <h2> Skills</h2>
+          </div>
+          <app-skills></app-skills>
+  
+        </div>
+        <div id='projects' class="marginTop40">
+          <div class="heading">
+            <span><i class='fa fa-briefcase'></i></span>
+            <h2> Projects</h2>
+          </div>
+          <app-timelines [arrList]="experienceData"></app-timelines>
+        </div>
+        <div id='interest' class="marginTop40">
+          <div class="heading heartsec">
+            <span><i class='fa fa-heart'></i></span>
+            <h2>INTEREST</h2>
+          </div>
+          <app-my-interests></app-my-interests>
+        </div>
+        <div id='contact' class="marginTop40">
+          <div class="heading">
+            <span><i class='fa fa-envelope'></i></span>
+            <h2>Contact Me</h2>
+          </div>
+          <app-my-contact></app-my-contact>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>

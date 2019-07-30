@@ -1,0 +1,31 @@
+<section class="mycontact">
+    <div class="row pad0">
+      <div class="col-md-5 contactform">
+        <form [formGroup]="contactForm" (ngSubmit)="submitMessage($event)">
+          <span class="form-group has-float-label">
+            <input formControlName="name" class="form-control" id="name" type="text" placeholder="Name"/>
+            <label for="name">Name</label>
+          </span>   
+          <span class="form-group has-float-label">
+            <input formControlName="subject" class="form-control" id="subject" type="text" placeholder="Subject"/>
+            <label for="subject">Subject</label>
+          </span>
+          <span class="form-group has-float-label">
+            <input formControlName="email" class="form-control" id="email" type="email" placeholder="Email"/>
+            <label for="email">Email</label>
+          </span>
+          <span class="form-group has-float-label">
+            <textarea formControlName="message" class="form-control" id="message" type="text" placeholder="Message"></textarea>
+            <label for="message">Message</label>
+          </span>
+          <button type="submit" class="btn"><a href="mailto:anshoopandey.akp@gmail.com?Subject=subject &&body=message" target="_top">Send</a></button>
+        </form>
+      </div>
+      <div class="col-md-7 padright0">
+         <!-- <sebm-google-map [latitude]="lat" [longitude]="lng">
+          <sebm-google-map-marker [latitude]="lat" [longitude]="lng">
+          </sebm-google-map-marker>
+        </sebm-google-map> -->
+      </div>
+    </div>
+  </section>

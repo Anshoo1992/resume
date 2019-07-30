@@ -1,0 +1,47 @@
+textarea,input{
+    width: 100%;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid #d6d4d4;
+    border-radius: 0;
+    box-shadow: none;
+}
+ .form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.contactform{
+    background: #fff;
+    padding:60px 40px;
+     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+}
+*:focus {
+    outline: none;
+}
+.has-float-label .form-control:placeholder-shown:not(:focus)+*{
+    font-size:120%;
+}
+.btn{
+    margin-top: 20px;
+    border: 0;
+    background: #06a763;
+    color: #fff;
+    padding: 7px 29px;
+    border-radius: 2px;
+    text-transform: UPPERCASE;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+}
+ .sebm-google-map-container {
+      height: 390px;
+    }
+.pad0{
+    padding: 0;
+}
+.padright0{
+    padding-right: 0;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}

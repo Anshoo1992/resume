@@ -15,11 +15,11 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     this.getProfileData();
-     this.getEducationData('/assets/education.json');
+     this.getEducationData('./assets/education.json');
   }
   getProfileData(){
     
-    this.api.getTimelineData('/assets/profile.json').then((data) => {
+    this.api.getTimelineData('./assets/profile.json').then((data) => {
       let res:any=data;
       this.profileData=res.profile;
     }, (err) => {
@@ -31,7 +31,7 @@ getEducationData(url) {
       let res: any = data;
       if (res.timeline) {
         this.educationData = res.timeline;
-        this.getExperienceData('/assets/projects.json');
+        this.getExperienceData('./assets/projects.json');
       }
     }, (err) => {
     })

@@ -1,0 +1,70 @@
+{
+    "timeline":[
+        {
+            "title":"SDK Platform",
+            "subtitle":"Schneider Electric",
+            "role":"UI Developer",
+            "date":"Dec 2018 - Present",
+            "icon":"",
+            "desc":" This is Client’s product to help other applications and build various reusable components such as T&C , UI web components",
+            "skills":"Angular 7, Stenciljs, Html, CSS3"
+
+        },
+        {
+            "title":"Ecoread App",
+            "subtitle":"Schneider Electric",
+            "role":"UI Developer",
+            "date":"Jun 2018 - Nov 2018",
+            "icon":"",
+            "desc":" This is Client’s product to help panel builder to create and manage their project for creating different switchboards and other equipment which can enhance their energy management and security.",
+            "skills":"Angular JS, Html, CSS3"
+
+        },
+        {
+            "title":"Toapaz Conference App",
+            "subtitle":"Newgen Software",
+            "role":"Senior Software Developer",
+            "date":"Nov 2016-Jan 2018",
+            "icon":"",
+            "desc":"Client’s requirement is to create a conference app through which an organization can create or manage its conferences within the organization along with can help in managing their webcasts consuming APIs from Twilio .",
+            "skills":"Ionic framework(2.0), Angular(2.x),Nodejs, MongoDb , Html, CSS3"
+
+        },
+         {
+            "title":"Cymbal Stream",
+            "subtitle":"Newgen Software",
+             "role":"Senior Software Developer",
+            "date":"July 2016-October 2016",
+            "icon":"",
+            "desc":"It is a Cloud based IT Business Management suite that allows you to gain greater insight and control of your Budgets,Projects, Resources, Assets, Contracts and Service delivery.It contains a lot of detail functionalities of each module and have many other things like security and access limitations." ,
+             "skills":"Angular JS, Breeze, SQL Server 2012,Bootstrap (Responsive design)"
+        },
+         {
+            "title":"Work Request Management Portal",
+            "subtitle":"Newgen Software",
+             "role":"Senior Software Developer",
+            "date":"Nov 2015- June 2016",
+            "icon":"",
+            "desc":"Client wanted to create a Request management product, which any Organization can use for maintaining work request between End-User/Admin/Tech, Which keep tracks of Open/Closed work assignment & which resource/assets are occupied/free. Client wanted us to develop Mobile App with rich user experience.",
+            "skills":"Ionic framework , Html, CSS3, Angular js,Bootstrap (Responsive design)"
+        },
+         {
+            "title":"Stocks Management Portal",
+            "subtitle":"Newgen Software",
+             "role":"Software Developer",
+            "date":"May 2015-Oct 2015",
+            "icon":"",
+            "desc":"Client wanted to create a Request management product, which any Organization can use for maintaining work request between End-User/Admin/Tech, Which keep tracks of Open/Closed work assignment & which resource/assets are occupied/free. Client wanted us to develop Mobile App with rich user experience.",
+            "skills":"Ionic framework , Html, CSS3, Angular js,Bootstrap (Responsive design)"
+        },
+        {
+           "title":"Content Management System and Apps",
+            "subtitle":"Newgen Software",
+             "role":"Software Developer",
+            "date":"Sept 2014-March 2015",
+            "icon":"",
+            "desc":"Description: This project includes website developed through CMS using backbone framework. It includes development of multiple e-commerce based web applications.",
+            "skills":"Handlebars, HTML, Jquery, CSS , Ajax, Bootstrap (Responsive design)"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "timeline":[
+        {
+            "title":"Graduation(BTech:Computer Science)",
+            "subtitle":"Ajay Kumar Garg Engineering College,UPTU",
+            "date":"July 2010 - June 2014",
+            "icon":"",
+            "desc":"I completed my computer science degree from this prestigious institution. I successful completed all the credits without any fallout and got 70% overall."
+           
+        },
+        {
+            "title":"Preparatory Education(Secondary Education)",
+            "subtitle":"Kendriye Vidalayaya,Noida",
+            "date":"March 2008-June 2009",
+            "icon":"",
+            "desc":"I completed my Secondary Education degree from this prestigious institution. I successful completed all the credits without any fallout and got 88 % overall."
+        },
+         {
+            "title":"High School",
+            "subtitle":"Kendriye Vidalayaya,Noida",
+            "date":"March 2006-June 2007",
+            "icon":"",
+            "desc":"I completed my high school degree from this prestigious institution. I successful completed all the credits without any fallout and got 82.2% overall." 
+        }
+    ]
+}

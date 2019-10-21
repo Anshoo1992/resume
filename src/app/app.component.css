@@ -1,6 +1,6 @@
 .loader .my-loader {
     background-color: #D32F2F;
-    
+
 }
 .cnav{
     position: relative;
@@ -15,13 +15,10 @@
     left:0 !important;
 }
 .cnavicon{
-    background: #383d41;
     position: absolute;
     z-index: 11;
-    margin: 0 27px;
     font-size: 20px;
     cursor: pointer;
-    border: 1px solid rgba(93, 92, 92, 0.55);
     color: #06a763;
     font-size: 31px;
     text-align: center;
@@ -29,6 +26,9 @@
     transition: all .5s ease-in-out;
     padding: 2px 14px;
     display: flex;
+}
+.cnavicon .fa-close{
+  color: #616161;
 }
 .cnavcontent{
     position: fixed;

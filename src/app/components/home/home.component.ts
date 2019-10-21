@@ -7,43 +7,43 @@ import {ApiService} from '../../services/api.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  profileData:any;
+  profileData: any;
   educationData: any;
   experienceData: any;
 
-  constructor(public api:ApiService) { }
+  constructor(public api: ApiService) { }
 
   ngOnInit() {
     this.getProfileData();
-     this.getEducationData('./assets/education.json');
+    this.getEducationData('./assets/education.json');
   }
-  getProfileData(){
-    
+  getProfileData() {
+
     this.api.getTimelineData('./assets/profile.json').then((data) => {
-      let res:any=data;
-      this.profileData=res.profile;
+      const res: any = data;
+      this.profileData = res.profile;
     }, (err) => {
-      
-    })
+
+    });
 }
 getEducationData(url) {
     this.api.getTimelineData(url).then((data) => {
-      let res: any = data;
+      const res: any = data;
       if (res.timeline) {
         this.educationData = res.timeline;
         this.getExperienceData('./assets/projects.json');
       }
     }, (err) => {
-    })
+    });
   }
    getExperienceData(url) {
      this.api.getTimelineData(url).then((data) => {
-       let res: any = data;
+       const res: any = data;
        if (res.timeline) {
          // this.showLoader=false;
          this.experienceData = res.timeline;
        }
      }, (err) => {
-     })
+     });
    }
 }

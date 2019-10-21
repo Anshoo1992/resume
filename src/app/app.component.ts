@@ -11,6 +11,6 @@ export class AppComponent {
   constructor() {
   }
   showNav() {
-    this.toogle = this.toogle ? false : true
+    this.toogle = this.toogle ? false : true;
   }
 }

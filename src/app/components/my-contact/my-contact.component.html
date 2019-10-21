@@ -1,11 +1,11 @@
 <section class="mycontact">
-    <div class="row pad0">
+    <div class="row no-gutters">
       <div class="col-md-5 contactform">
         <form [formGroup]="contactForm" (ngSubmit)="submitMessage($event)">
           <span class="form-group has-float-label">
             <input formControlName="name" class="form-control" id="name" type="text" placeholder="Name"/>
             <label for="name">Name</label>
-          </span>   
+          </span>
           <span class="form-group has-float-label">
             <input formControlName="subject" class="form-control" id="subject" type="text" placeholder="Subject"/>
             <label for="subject">Subject</label>

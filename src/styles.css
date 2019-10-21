@@ -1,2 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
+
+.marginTop40 {
+  margin-top: 40px;
+}
+.marginTop140 {
+  margin-top: 140px;
+}
+.font18 {
+  font-size: 18px;
+}
+.positionRelative {
+  position: relative;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.paddingRight0 {
+  padding-right: 0;
+}
+.paddingLeft0 {
+  padding-left: 0;
+}
+
+.overflowHidden {
+  overflow: hidden;
+}
+.flex{
+  display: flex;
+}
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
